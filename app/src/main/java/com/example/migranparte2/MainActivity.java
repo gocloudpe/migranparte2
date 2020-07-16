@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
             finish();
             return true;
         }
+        if (id == R.id.activity_comunicacion) {
+            startActivity(new Intent(this, Comunicacion1.class));
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 }
