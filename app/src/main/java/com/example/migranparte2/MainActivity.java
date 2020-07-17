@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, Multimedia.class));
             return true;
         }
+        if (id == R.id.activity_permisos) {
+            startActivity(new Intent(this, Permisos.class));
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 }

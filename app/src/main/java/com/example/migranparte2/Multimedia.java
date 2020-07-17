@@ -2,8 +2,10 @@ package com.example.migranparte2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 
 public class Multimedia  extends AppCompatActivity {
     MediaPlayer mp;
@@ -25,5 +27,13 @@ public class Multimedia  extends AppCompatActivity {
     {
         super.onPause();
         mp.pause();
+    }
+
+    public void multimedia2(View view) {
+        startActivity(new Intent(this, Multimedia2.class));
+    }
+
+    public void multimedia3(View view) {
+        startActivity(new Intent(this, Multimedia3.class));
     }
 }
