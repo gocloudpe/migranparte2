@@ -37,5 +37,12 @@ public class Comunicacion1 extends AppCompatActivity {
             else
                 miresultado.setText("Esperemos que cambie de opinion para trabajar con nosotros");
         }
+        if (requestCode == 3500 && resultCode == RESULT_OK) {
+            miresultado.setText("Visitenos en alguna de nuestras sucursales");
+        }
+    }
+
+    public void sucursales(View view) {
+         startActivityForResult(new Intent(this, Comunicacion3.class), 3500);
     }
 }
