@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_comunicacion"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Comunicacion" />
+        <item android:id="@+id/nav_intenciones"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Intenciones" />
+        <item android:id="@+id/nav_multimedia"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Multimedia" />
+        <item android:id="@+id/nav_permisos"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Permisos" />
+    </group>
+    <item android:title="Acciones adicionales">
+        <menu>
+            <item android:id="@+id/nav_compartir"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item android:id="@+id/nav_salir"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Salir" />
+        </menu>
+    </item>
+</menu>
