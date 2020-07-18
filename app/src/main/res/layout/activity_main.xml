@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <TextView
+        style="@style/miEstilo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -28,7 +29,7 @@
         app:elevation="4dp"
         app:fabSize="normal"
         app:rippleColor="#43e3ff"
-        android:onClick="btnderecha"
+        android:onClick="fabderecha"
         />
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
@@ -42,6 +43,6 @@
         app:elevation="4dp"
         app:fabSize="normal"
         app:rippleColor="#43e3ff"
-        android:onClick="btnizquierda"
+        android:onClick="fabizquierda"
         />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
